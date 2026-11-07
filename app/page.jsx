@@ -114,7 +114,7 @@ export default function Portfolio() {
     <>
       <a className="skip-link" href="#work">Skip to projects</a>
 
-      <header className="site-header" id="top">
+      <header className="site-header">
         <div className="wrap nav">
           <a className="wordmark" href="#top">davit<span>.</span>hakobyan</a>
           <nav className="nav-links" aria-label="Main navigation">
