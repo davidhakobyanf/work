@@ -14,9 +14,9 @@ const projects = [
     site: 'minitooly.com',
     url: 'https://minitooly.com/',
     summary: 'A multilingual toolbox for everyday developer and document tasks.',
-    contribution: 'I built and maintain the platform, including its tool catalog and individual utilities.',
-    implementation: 'Next.js App Router generates localized pages from a shared tool catalog. JSON formatting runs in the browser, and the CSV tool uses a Web Worker to analyze files and export cleaned data without blocking the interface.',
-    stack: ['Next.js', 'TypeScript', 'next-intl', 'Web Workers'],
+    contribution: 'I built the platform and its utilities, set up the Sanity Studio admin, and automated blog publishing.',
+    implementation: 'Next.js App Router generates localized tool pages. The CSV tool processes files in a browser Web Worker. An n8n workflow takes an English topic, prepares articles in 10 languages and generates covers, then publishes the posts to Sanity and triggers a Vercel build.',
+    stack: ['Next.js', 'TypeScript', 'Sanity Studio', 'n8n', 'Web Workers'],
   },
   {
     id: 'contour',
